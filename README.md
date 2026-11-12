@@ -1,24 +1,24 @@
-# Contador com tratamento de exceções
+# Counter with exception handling
 
-Exercício do Bootcamp Santander 2024 para praticar controle de fluxo e exceções em Java.
+Java exercise from Santander Bootcamp 2024 for practicing control flow and custom exceptions.
 
-## O que faz
+## Behavior
 
-Recebe dois inteiros e imprime uma sequência com a quantidade correspondente à diferença entre eles. Quando o primeiro é maior que o segundo, lança e trata uma exceção personalizada.
+Reads two integers and prints a sequence whose length is the difference between them. If the first value is greater than the second, it throws and handles a custom exception.
 
-## Executar
+## Run locally
 
-Com um JDK instalado:
+With a JDK installed:
 
 ```bash
 javac -encoding UTF-8 -d out src/Contador.java src/ParametrosInvalidosException.java
 java -cp out Contador
 ```
 
-## Exemplo
+## Example
 
-Para os valores 2 e 5, imprime os números 1, 2 e 3. Valores iguais produzem uma sequência vazia, conforme a regra implementada.
+Inputs 2 and 5 produce the numbers 1, 2 and 3. Equal inputs produce an empty sequence, following the implemented rule.
 
-## Conceitos praticados
+## Concepts practiced
 
-Scanner, laços, métodos, exceções verificadas e validação de parâmetros. Projeto de estudo sem persistência ou serviços externos.
+Scanner, loops, methods, checked exceptions and parameter validation. This study project has no persistence or external services.
